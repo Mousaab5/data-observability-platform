@@ -1,0 +1,17 @@
+# Core
+pandas==2.2.0
+numpy==1.26.4
+sqlalchemy==2.0.28
+psycopg2-binary==2.9.9
+
+# Validation & config
+pydantic==2.6.1
+pyyaml==6.0.1
+python-dotenv==1.0.1
+
+# Qualité de code
+mypy==1.8.0
+ruff==0.3.0
+pytest==8.0.0
+pytest-cov==4.1.0
+EOF
