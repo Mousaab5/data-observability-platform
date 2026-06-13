@@ -1,0 +1,34 @@
+# ===========================
+# DATA — jamais commitées
+# ===========================
+data/
+*.csv
+*.parquet
+*.json
+
+# ===========================
+# SECRETS — jamais commités
+# ===========================
+.env
+
+# ===========================
+# PYTHON
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.pytest_cache/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+EOF
